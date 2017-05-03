@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iSwift.xcodeproj">
+      location = "self:/Users/Akshay/iTech/MyGit/iSwift/iSwift.xcodeproj">
    </FileRef>
 </Workspace>

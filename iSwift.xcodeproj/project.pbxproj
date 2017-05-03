@@ -300,6 +300,7 @@
 				BA85CCD81EBA4E6A0074784D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

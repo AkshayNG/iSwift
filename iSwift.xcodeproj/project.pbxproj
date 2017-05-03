@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA85CC991EB7362E0074784D /* ANGModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85CC981EB7362E0074784D /* ANGModal.swift */; };
+		BA85CC9B1EB736510074784D /* ANGModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85CC9A1EB736510074784D /* ANGModalViewController.swift */; };
 		BAC407361EAC6335008584C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC407351EAC6335008584C2 /* AppDelegate.swift */; };
 		BAC407381EAC6335008584C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC407371EAC6335008584C2 /* ViewController.swift */; };
 		BAC4073B1EAC6335008584C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC407391EAC6335008584C2 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA85CC981EB7362E0074784D /* ANGModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANGModal.swift; sourceTree = "<group>"; };
+		BA85CC9A1EB736510074784D /* ANGModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANGModalViewController.swift; sourceTree = "<group>"; };
 		BAC407321EAC6335008584C2 /* iSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC407351EAC6335008584C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAC407371EAC6335008584C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA85CC971EB7362E0074784D /* ANGModal */ = {
+			isa = PBXGroup;
+			children = (
+				BA85CC981EB7362E0074784D /* ANGModal.swift */,
+				BA85CC9A1EB736510074784D /* ANGModalViewController.swift */,
+			);
+			path = ANGModal;
+			sourceTree = "<group>";
+		};
 		BAC407291EAC6335008584C2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +67,7 @@
 		BAC407341EAC6335008584C2 /* iSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BA85CC971EB7362E0074784D /* ANGModal */,
 				BAC407351EAC6335008584C2 /* AppDelegate.swift */,
 				BAC407371EAC6335008584C2 /* ViewController.swift */,
 				BAC407391EAC6335008584C2 /* Main.storyboard */,
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA85CC991EB7362E0074784D /* ANGModal.swift in Sources */,
+				BA85CC9B1EB736510074784D /* ANGModalViewController.swift in Sources */,
 				BAC407381EAC6335008584C2 /* ViewController.swift in Sources */,
 				BAC407361EAC6335008584C2 /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +316,7 @@
 				BAC407461EAC6335008584C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

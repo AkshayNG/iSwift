@@ -1,9 +1,9 @@
 //
 //  ANGModal.swift
-//  All List
+//  iSwift
 //
-//  Created by Amol Bapat on 16/12/16.
-//  Copyright © 2016 Olive. All rights reserved.
+//  Created by Akshay Gajarlawar on 16/12/16.
+//  Copyright © 2016 Yantrana. All rights reserved.
 //
 
 import UIKit

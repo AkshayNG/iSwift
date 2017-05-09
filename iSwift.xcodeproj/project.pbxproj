@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */; };
-		BA85CCCA1EBA4E6A0074784D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85CCC91EBA4E6A0074784D /* ViewController.swift */; };
 		BA85CCCD1EBA4E6A0074784D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCCB1EBA4E6A0074784D /* Main.storyboard */; };
 		BA85CCCF1EBA4E6A0074784D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCCE1EBA4E6A0074784D /* Assets.xcassets */; };
 		BA85CCD21EBA4E6A0074784D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCD01EBA4E6A0074784D /* LaunchScreen.storyboard */; };
+		BAE513151EC22F7C005846D7 /* UICounterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513141EC22F7C005846D7 /* UICounterControl.swift */; };
+		BAE5131A1EC23051005846D7 /* ANGCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513171EC23051005846D7 /* ANGCalendarView.swift */; };
+		BAE5131B1EC23051005846D7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513181EC23051005846D7 /* Date+Extension.swift */; };
+		BAE5131C1EC23051005846D7 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513191EC23051005846D7 /* DayCell.swift */; };
+		BAE5131E1EC230BA005846D7 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5131D1EC230BA005846D7 /* CommonUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA85CCC41EBA4E6A0074784D /* iSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA85CCC91EBA4E6A0074784D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA85CCCC1EBA4E6A0074784D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA85CCCE1EBA4E6A0074784D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA85CCD11EBA4E6A0074784D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA85CCD31EBA4E6A0074784D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE513141EC22F7C005846D7 /* UICounterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICounterControl.swift; path = Plugins/UICounterControl.swift; sourceTree = "<group>"; };
+		BAE513171EC23051005846D7 /* ANGCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANGCalendarView.swift; sourceTree = "<group>"; };
+		BAE513181EC23051005846D7 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		BAE513191EC23051005846D7 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		BAE5131D1EC230BA005846D7 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonUtils.swift; path = Utilities/CommonUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,51 @@
 		BA85CCC61EBA4E6A0074784D /* iSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BAE513131EC22D86005846D7 /* Utilities */,
+				BAE513121EC22D78005846D7 /* Extensions */,
+				BAE513111EC22D52005846D7 /* Plugins */,
 				BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */,
-				BA85CCC91EBA4E6A0074784D /* ViewController.swift */,
 				BA85CCCB1EBA4E6A0074784D /* Main.storyboard */,
 				BA85CCCE1EBA4E6A0074784D /* Assets.xcassets */,
 				BA85CCD01EBA4E6A0074784D /* LaunchScreen.storyboard */,
 				BA85CCD31EBA4E6A0074784D /* Info.plist */,
 			);
 			path = iSwift;
+			sourceTree = "<group>";
+		};
+		BAE513111EC22D52005846D7 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				BAE513161EC23051005846D7 /* ANGCalendar */,
+				BAE513141EC22F7C005846D7 /* UICounterControl.swift */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		BAE513121EC22D78005846D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BAE513131EC22D86005846D7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BAE5131D1EC230BA005846D7 /* CommonUtils.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		BAE513161EC23051005846D7 /* ANGCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				BAE513171EC23051005846D7 /* ANGCalendarView.swift */,
+				BAE513181EC23051005846D7 /* Date+Extension.swift */,
+				BAE513191EC23051005846D7 /* DayCell.swift */,
+			);
+			name = ANGCalendar;
+			path = Plugins/ANGCalendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA85CCCA1EBA4E6A0074784D /* ViewController.swift in Sources */,
+				BAE513151EC22F7C005846D7 /* UICounterControl.swift in Sources */,
+				BAE5131B1EC23051005846D7 /* Date+Extension.swift in Sources */,
+				BAE5131C1EC23051005846D7 /* DayCell.swift in Sources */,
+				BAE5131A1EC23051005846D7 /* ANGCalendarView.swift in Sources */,
+				BAE5131E1EC230BA005846D7 /* CommonUtils.swift in Sources */,
 				BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

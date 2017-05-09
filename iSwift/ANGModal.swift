@@ -2,8 +2,8 @@
 //  ANGModal.swift
 //  iSwift
 //
-//  Created by Akshay Gajarlawar on 16/12/16.
-//  Copyright © 2016 Yantrana. All rights reserved.
+//  Created by Akshay Gajarlawar on 03/05/17.
+//  Copyright © 2017 yantrana. All rights reserved.
 //
 
 import UIKit

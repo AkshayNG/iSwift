@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */; };
 		BA85CCCD1EBA4E6A0074784D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCCB1EBA4E6A0074784D /* Main.storyboard */; };
-		BA85CCCF1EBA4E6A0074784D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCCE1EBA4E6A0074784D /* Assets.xcassets */; };
 		BA85CCD21EBA4E6A0074784D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCD01EBA4E6A0074784D /* LaunchScreen.storyboard */; };
 		BAE513151EC22F7C005846D7 /* UICounterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513141EC22F7C005846D7 /* UICounterControl.swift */; };
 		BAE5131A1EC23051005846D7 /* ANGCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513171EC23051005846D7 /* ANGCalendarView.swift */; };
@@ -22,7 +21,6 @@
 		BA85CCC41EBA4E6A0074784D /* iSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA85CCCC1EBA4E6A0074784D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA85CCCE1EBA4E6A0074784D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA85CCD11EBA4E6A0074784D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA85CCD31EBA4E6A0074784D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE513141EC22F7C005846D7 /* UICounterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICounterControl.swift; path = Plugins/UICounterControl.swift; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				BAE513111EC22D52005846D7 /* Plugins */,
 				BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */,
 				BA85CCCB1EBA4E6A0074784D /* Main.storyboard */,
-				BA85CCCE1EBA4E6A0074784D /* Assets.xcassets */,
 				BA85CCD01EBA4E6A0074784D /* LaunchScreen.storyboard */,
 				BA85CCD31EBA4E6A0074784D /* Info.plist */,
 			);
@@ -170,7 +167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA85CCD21EBA4E6A0074784D /* LaunchScreen.storyboard in Resources */,
-				BA85CCCF1EBA4E6A0074784D /* Assets.xcassets in Resources */,
 				BA85CCCD1EBA4E6A0074784D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

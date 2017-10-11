@@ -1,12 +1,10 @@
-//
-//  SQLiteManager.swift
-//  All List
-//
-//  Created by Amol Bapat on 20/12/16.
-//  Copyright © 2016 Olive. All rights reserved.
-//
 
 import UIKit
+
+/* 
+pod 'SQLite.swift', '~> 0.11.1'
+Add framework
+*/
 
 import SQLite
 
@@ -15,28 +13,19 @@ class SQLiteManager: NSObject {
     static let sharedManager = SQLiteManager()
     
     static private let DocumentDirectoryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
-    static private let dbName = "All_List.sqlite3"
+    
+    static private let dbName = "Project_Name.sqlite3"
+    
     private let db =  try? Connection("\(DocumentDirectoryPath)/\(dbName)")
-    private let history_limit = 20
+   
     
     //tables
-    private let visit_history = Table("visit_history")
-    private let notifications = Table ("notifications")
+    private let table1 = Table("table_name_1")
     
     //columns
-    private let row_id = Expression<Int>("id")
-    private let shop_id = Expression<String?>("shop_id")
-    private let shop_name = Expression<String?>("shop_name")
-    private let category_name = Expression<String?>("categ_name")
-    private let mall_name = Expression<String?>("mall_name")
-    
-    private let timestamp = Expression<TimeInterval>("timestamp")
-    
-    private let n_id = Expression<String?>("notification_id")
-    private let n_title = Expression<String?>("notification_title")
-    private let n_text = Expression<String?>("notification_text")
-    private let n_image = Expression<String?>("notification_image")
-    private let n_service = Expression<String?>("service_of")
+    private let column1 = Expression<Int>("column_name_1")
+    private let column2 = Expression<String?>("column_name_2")
+    private let column3 = Expression<TimeInterval>("column_name_3")
     
     
     // MARK: CURD / Basic operations
@@ -49,28 +38,12 @@ class SQLiteManager: NSObject {
         
         var create:Statement? = nil
         
-        if(name == "visit_history")
+        if(table == table1)
         {
             create =  try! db?.run(table.create(ifNotExists: true) { t in
-                t.column(row_id, primaryKey: .autoincrement)
-                t.column(shop_id, unique:true)
-                t.column(shop_name)
-                t.column(category_name)
-                t.column(mall_name)
-                t.column(timestamp)
-            })
-        }
-        else if (name == "notifications")
-        {
-            create =  try! db?.run(table.create(ifNotExists: true) { t in
-                t.column(row_id, primaryKey: .autoincrement)
-                t.column(n_id, unique:true)
-                t.column(shop_id)
-                t.column(n_title)
-                t.column(n_text)
-                t.column(n_image)
-                t.column(n_service)
-                t.column(timestamp)
+                t.column(column1, primaryKey: .autoincrement)
+                t.column(column2, unique:true)
+                t.column(column3)
             })
         }
         
@@ -79,18 +52,12 @@ class SQLiteManager: NSObject {
             print("Table '\(name)' created ...")
             return true
         }
-        else
-        {
-            
-        }
         
         return false
     }
     
     func checkExistRow(table:Table, whereCondition:Expression<Bool>?) -> Bool
     {
-        print("Checking exist ...")
-        
         var alice = table
         
         if(whereCondition != nil)

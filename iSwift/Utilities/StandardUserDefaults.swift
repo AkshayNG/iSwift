@@ -1,3 +1,4 @@
+//get and set methods
 
 import Foundation
 

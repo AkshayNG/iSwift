@@ -1,12 +1,12 @@
 
 import UIKit
 
-/* 
-pod 'SQLite.swift', '~> 0.11.1'
-Add framework
-*/
-
 import SQLite
+
+/*
+ pod 'SQLite.swift', '~> 0.11.1'
+ Add framework
+ */
 
 class SQLiteManager: NSObject {
 

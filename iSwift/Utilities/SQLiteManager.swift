@@ -29,7 +29,10 @@ class SQLiteManager: NSObject {
     
     
     // MARK: CURD / Basic operations
-    
+    /* e.g.
+    _ = SQLiteManager.sharedManager.createTable(name: "visit_history")
+    _ = SQLiteManager.sharedManager.createTable(name: "notifications")
+    */
     func createTable(name:String)->Bool
     {
         print("Careating table ...")
@@ -56,6 +59,15 @@ class SQLiteManager: NSObject {
         return false
     }
     
+    
+    /* 
+    e.g.
+    let condition:Expression<Bool>? = Expression<Bool>(shop_id == data["shopID"] as? String)
+    if(checkExistRow(table: visit_history, whereCondition:condition))
+    {
+    }
+    */
+    
     func checkExistRow(table:Table, whereCondition:Expression<Bool>?) -> Bool
     {
         var alice = table
@@ -73,9 +85,19 @@ class SQLiteManager: NSObject {
         
         print("Row not exist ...")
         return false
-    
     }
+   
     
+    /*
+    e.g.
+    let setterData:[Setter] = [shop_id <- data["shopID"] as? String,
+                     shop_name <- data["shopName"] as? String,
+                     category_name <- data["categName"] as? String,
+                     mall_name <- data["mallName"] as? String,
+                     timestamp <- data["timestamp"] as! TimeInterval]
+            
+    insert(table: visit_history, setter:setterData)
+    */
     func insert(table:Table, setter:[Setter]) -> Bool
     {
         do
@@ -99,6 +121,15 @@ class SQLiteManager: NSObject {
     }
     
     
+    /*
+    e.g.
+     let data:[Setter] = [shop_name <- data["shopName"] as? String,
+                                 category_name <- data["categName"] as? String,
+                                 mall_name <- data["mallName"] as? String,
+                                 timestamp <- data["timestamp"] as! TimeInterval]
+            
+     update(table: visit_history, setter: data, whereCondition:condition)
+    */
     func update(table:Table, setter:[Setter], whereCondition:Expression<Bool>?) -> Bool
     {
         var alice = table
@@ -126,6 +157,11 @@ class SQLiteManager: NSObject {
             return false
         }
     }
+    
+    /*
+    e.g.
+    delete(table: notifications, whereCondition: Expression<Bool>(row_id == notificationID))
+    */
     
     func delete(table:Table, whereCondition:Expression<Bool>?) -> Bool
     {

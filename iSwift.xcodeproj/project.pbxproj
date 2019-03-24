@@ -7,27 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA38C224224539DA00165CC6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C214224539DA00165CC6 /* APIClient.swift */; };
+		BA38C225224539DA00165CC6 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C215224539DA00165CC6 /* SQLiteManager.swift */; };
+		BA38C226224539DA00165CC6 /* StandardUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C216224539DA00165CC6 /* StandardUserDefaults.swift */; };
+		BA38C227224539DA00165CC6 /* UICounterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C218224539DA00165CC6 /* UICounterControl.swift */; };
+		BA38C228224539DA00165CC6 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21A224539DA00165CC6 /* UIApplication+Extension.swift */; };
+		BA38C229224539DA00165CC6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21B224539DA00165CC6 /* UIColor+Extension.swift */; };
+		BA38C22A224539DA00165CC6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21C224539DA00165CC6 /* Date+Extension.swift */; };
+		BA38C22B224539DA00165CC6 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21D224539DA00165CC6 /* UIButton+Extension.swift */; };
+		BA38C22C224539DA00165CC6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21E224539DA00165CC6 /* UIView+Extension.swift */; };
+		BA38C22D224539DA00165CC6 /* UIControl+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21F224539DA00165CC6 /* UIControl+Block.swift */; };
+		BA38C22E224539DA00165CC6 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C220224539DA00165CC6 /* UIImage+Extension.swift */; };
+		BA38C22F224539DA00165CC6 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C221224539DA00165CC6 /* UINavigationController+Extension.swift */; };
+		BA38C230224539DA00165CC6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C222224539DA00165CC6 /* String+Extension.swift */; };
+		BA38C231224539DA00165CC6 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C223224539DA00165CC6 /* UITextField+Extension.swift */; };
 		BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */; };
 		BA85CCCD1EBA4E6A0074784D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCCB1EBA4E6A0074784D /* Main.storyboard */; };
 		BA85CCD21EBA4E6A0074784D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCD01EBA4E6A0074784D /* LaunchScreen.storyboard */; };
-		BAE513151EC22F7C005846D7 /* UICounterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513141EC22F7C005846D7 /* UICounterControl.swift */; };
-		BAE5131A1EC23051005846D7 /* ANGCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513171EC23051005846D7 /* ANGCalendarView.swift */; };
-		BAE5131B1EC23051005846D7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513181EC23051005846D7 /* Date+Extension.swift */; };
-		BAE5131C1EC23051005846D7 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE513191EC23051005846D7 /* DayCell.swift */; };
-		BAE5131E1EC230BA005846D7 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5131D1EC230BA005846D7 /* CommonUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA38C214224539DA00165CC6 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BA38C215224539DA00165CC6 /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		BA38C216224539DA00165CC6 /* StandardUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardUserDefaults.swift; sourceTree = "<group>"; };
+		BA38C218224539DA00165CC6 /* UICounterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICounterControl.swift; sourceTree = "<group>"; };
+		BA38C21A224539DA00165CC6 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		BA38C21B224539DA00165CC6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BA38C21C224539DA00165CC6 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		BA38C21D224539DA00165CC6 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		BA38C21E224539DA00165CC6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		BA38C21F224539DA00165CC6 /* UIControl+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Block.swift"; sourceTree = "<group>"; };
+		BA38C220224539DA00165CC6 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		BA38C221224539DA00165CC6 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		BA38C222224539DA00165CC6 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BA38C223224539DA00165CC6 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		BA85CCC41EBA4E6A0074784D /* iSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA85CCCC1EBA4E6A0074784D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA85CCD11EBA4E6A0074784D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA85CCD31EBA4E6A0074784D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAE513141EC22F7C005846D7 /* UICounterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICounterControl.swift; path = Plugins/UICounterControl.swift; sourceTree = "<group>"; };
-		BAE513171EC23051005846D7 /* ANGCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANGCalendarView.swift; sourceTree = "<group>"; };
-		BAE513181EC23051005846D7 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		BAE513191EC23051005846D7 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
-		BAE5131D1EC230BA005846D7 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonUtils.swift; path = Utilities/CommonUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA38C213224539DA00165CC6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA38C214224539DA00165CC6 /* APIClient.swift */,
+				BA38C215224539DA00165CC6 /* SQLiteManager.swift */,
+				BA38C216224539DA00165CC6 /* StandardUserDefaults.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BA38C217224539DA00165CC6 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				BA38C218224539DA00165CC6 /* UICounterControl.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		BA38C219224539DA00165CC6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA38C21A224539DA00165CC6 /* UIApplication+Extension.swift */,
+				BA38C21B224539DA00165CC6 /* UIColor+Extension.swift */,
+				BA38C21C224539DA00165CC6 /* Date+Extension.swift */,
+				BA38C21D224539DA00165CC6 /* UIButton+Extension.swift */,
+				BA38C21E224539DA00165CC6 /* UIView+Extension.swift */,
+				BA38C21F224539DA00165CC6 /* UIControl+Block.swift */,
+				BA38C220224539DA00165CC6 /* UIImage+Extension.swift */,
+				BA38C221224539DA00165CC6 /* UINavigationController+Extension.swift */,
+				BA38C222224539DA00165CC6 /* String+Extension.swift */,
+				BA38C223224539DA00165CC6 /* UITextField+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BA85CCBB1EBA4E6A0074784D = {
 			isa = PBXGroup;
 			children = (
@@ -60,50 +113,15 @@
 		BA85CCC61EBA4E6A0074784D /* iSwift */ = {
 			isa = PBXGroup;
 			children = (
-				BAE513131EC22D86005846D7 /* Utilities */,
-				BAE513121EC22D78005846D7 /* Extensions */,
-				BAE513111EC22D52005846D7 /* Plugins */,
+				BA38C219224539DA00165CC6 /* Extensions */,
+				BA38C217224539DA00165CC6 /* Subclasses */,
+				BA38C213224539DA00165CC6 /* Utilities */,
 				BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */,
 				BA85CCCB1EBA4E6A0074784D /* Main.storyboard */,
 				BA85CCD01EBA4E6A0074784D /* LaunchScreen.storyboard */,
 				BA85CCD31EBA4E6A0074784D /* Info.plist */,
 			);
 			path = iSwift;
-			sourceTree = "<group>";
-		};
-		BAE513111EC22D52005846D7 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				BAE513161EC23051005846D7 /* ANGCalendar */,
-				BAE513141EC22F7C005846D7 /* UICounterControl.swift */,
-			);
-			name = Plugins;
-			sourceTree = "<group>";
-		};
-		BAE513121EC22D78005846D7 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		BAE513131EC22D86005846D7 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				BAE5131D1EC230BA005846D7 /* CommonUtils.swift */,
-			);
-			name = Utilities;
-			sourceTree = "<group>";
-		};
-		BAE513161EC23051005846D7 /* ANGCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				BAE513171EC23051005846D7 /* ANGCalendarView.swift */,
-				BAE513181EC23051005846D7 /* Date+Extension.swift */,
-				BAE513191EC23051005846D7 /* DayCell.swift */,
-			);
-			name = ANGCalendar;
-			path = Plugins/ANGCalendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +156,7 @@
 				TargetAttributes = {
 					BA85CCC31EBA4E6A0074784D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = RDYUM2S4RE;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -178,12 +195,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE513151EC22F7C005846D7 /* UICounterControl.swift in Sources */,
-				BAE5131B1EC23051005846D7 /* Date+Extension.swift in Sources */,
-				BAE5131C1EC23051005846D7 /* DayCell.swift in Sources */,
-				BAE5131A1EC23051005846D7 /* ANGCalendarView.swift in Sources */,
-				BAE5131E1EC230BA005846D7 /* CommonUtils.swift in Sources */,
+				BA38C231224539DA00165CC6 /* UITextField+Extension.swift in Sources */,
+				BA38C229224539DA00165CC6 /* UIColor+Extension.swift in Sources */,
+				BA38C225224539DA00165CC6 /* SQLiteManager.swift in Sources */,
+				BA38C22D224539DA00165CC6 /* UIControl+Block.swift in Sources */,
+				BA38C22E224539DA00165CC6 /* UIImage+Extension.swift in Sources */,
+				BA38C226224539DA00165CC6 /* StandardUserDefaults.swift in Sources */,
+				BA38C22F224539DA00165CC6 /* UINavigationController+Extension.swift in Sources */,
 				BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */,
+				BA38C224224539DA00165CC6 /* APIClient.swift in Sources */,
+				BA38C230224539DA00165CC6 /* String+Extension.swift in Sources */,
+				BA38C22B224539DA00165CC6 /* UIButton+Extension.swift in Sources */,
+				BA38C22A224539DA00165CC6 /* Date+Extension.swift in Sources */,
+				BA38C228224539DA00165CC6 /* UIApplication+Extension.swift in Sources */,
+				BA38C22C224539DA00165CC6 /* UIView+Extension.swift in Sources */,
+				BA38C227224539DA00165CC6 /* UICounterControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,11 +330,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RDYUM2S4RE;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yantrana.iSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -317,11 +345,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RDYUM2S4RE;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yantrana.iSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

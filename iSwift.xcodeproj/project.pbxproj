@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA38C224224539DA00165CC6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C214224539DA00165CC6 /* APIClient.swift */; };
-		BA38C225224539DA00165CC6 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C215224539DA00165CC6 /* SQLiteManager.swift */; };
-		BA38C226224539DA00165CC6 /* StandardUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C216224539DA00165CC6 /* StandardUserDefaults.swift */; };
-		BA38C227224539DA00165CC6 /* UICounterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C218224539DA00165CC6 /* UICounterControl.swift */; };
 		BA38C228224539DA00165CC6 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21A224539DA00165CC6 /* UIApplication+Extension.swift */; };
 		BA38C229224539DA00165CC6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21B224539DA00165CC6 /* UIColor+Extension.swift */; };
 		BA38C22A224539DA00165CC6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38C21C224539DA00165CC6 /* Date+Extension.swift */; };
@@ -24,13 +20,12 @@
 		BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */; };
 		BA85CCCD1EBA4E6A0074784D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCCB1EBA4E6A0074784D /* Main.storyboard */; };
 		BA85CCD21EBA4E6A0074784D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85CCD01EBA4E6A0074784D /* LaunchScreen.storyboard */; };
+		BAFA828B2247EB3000C59289 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82852247EB3000C59289 /* APIClient.swift */; };
+		BAFA828C2247EB3000C59289 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82862247EB3000C59289 /* SQLiteManager.swift */; };
+		BAFA828D2247EB3000C59289 /* UICounterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA828A2247EB3000C59289 /* UICounterControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA38C214224539DA00165CC6 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		BA38C215224539DA00165CC6 /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
-		BA38C216224539DA00165CC6 /* StandardUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardUserDefaults.swift; sourceTree = "<group>"; };
-		BA38C218224539DA00165CC6 /* UICounterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICounterControl.swift; sourceTree = "<group>"; };
 		BA38C21A224539DA00165CC6 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		BA38C21B224539DA00165CC6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BA38C21C224539DA00165CC6 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
@@ -46,6 +41,9 @@
 		BA85CCCC1EBA4E6A0074784D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA85CCD11EBA4E6A0074784D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA85CCD31EBA4E6A0074784D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFA82852247EB3000C59289 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BAFA82862247EB3000C59289 /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		BAFA828A2247EB3000C59289 /* UICounterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICounterControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,24 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA38C213224539DA00165CC6 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				BA38C214224539DA00165CC6 /* APIClient.swift */,
-				BA38C215224539DA00165CC6 /* SQLiteManager.swift */,
-				BA38C216224539DA00165CC6 /* StandardUserDefaults.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		BA38C217224539DA00165CC6 /* Subclasses */ = {
-			isa = PBXGroup;
-			children = (
-				BA38C218224539DA00165CC6 /* UICounterControl.swift */,
-			);
-			path = Subclasses;
-			sourceTree = "<group>";
-		};
 		BA38C219224539DA00165CC6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,15 +93,48 @@
 		BA85CCC61EBA4E6A0074784D /* iSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BAFA82842247EB3000C59289 /* Helper */,
+				BAFA82872247EB3000C59289 /* UI Components */,
 				BA38C219224539DA00165CC6 /* Extensions */,
-				BA38C217224539DA00165CC6 /* Subclasses */,
-				BA38C213224539DA00165CC6 /* Utilities */,
 				BA85CCC71EBA4E6A0074784D /* AppDelegate.swift */,
 				BA85CCCB1EBA4E6A0074784D /* Main.storyboard */,
 				BA85CCD01EBA4E6A0074784D /* LaunchScreen.storyboard */,
 				BA85CCD31EBA4E6A0074784D /* Info.plist */,
 			);
 			path = iSwift;
+			sourceTree = "<group>";
+		};
+		BAFA82842247EB3000C59289 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BAFA82852247EB3000C59289 /* APIClient.swift */,
+				BAFA82862247EB3000C59289 /* SQLiteManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BAFA82872247EB3000C59289 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				BAFA82882247EB3000C59289 /* UILabel */,
+				BAFA82892247EB3000C59289 /* UIView */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		BAFA82882247EB3000C59289 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		BAFA82892247EB3000C59289 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				BAFA828A2247EB3000C59289 /* UICounterControl.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,19 +210,18 @@
 			files = (
 				BA38C231224539DA00165CC6 /* UITextField+Extension.swift in Sources */,
 				BA38C229224539DA00165CC6 /* UIColor+Extension.swift in Sources */,
-				BA38C225224539DA00165CC6 /* SQLiteManager.swift in Sources */,
 				BA38C22D224539DA00165CC6 /* UIControl+Block.swift in Sources */,
+				BAFA828C2247EB3000C59289 /* SQLiteManager.swift in Sources */,
 				BA38C22E224539DA00165CC6 /* UIImage+Extension.swift in Sources */,
-				BA38C226224539DA00165CC6 /* StandardUserDefaults.swift in Sources */,
 				BA38C22F224539DA00165CC6 /* UINavigationController+Extension.swift in Sources */,
+				BAFA828D2247EB3000C59289 /* UICounterControl.swift in Sources */,
 				BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */,
-				BA38C224224539DA00165CC6 /* APIClient.swift in Sources */,
 				BA38C230224539DA00165CC6 /* String+Extension.swift in Sources */,
 				BA38C22B224539DA00165CC6 /* UIButton+Extension.swift in Sources */,
 				BA38C22A224539DA00165CC6 /* Date+Extension.swift in Sources */,
 				BA38C228224539DA00165CC6 /* UIApplication+Extension.swift in Sources */,
 				BA38C22C224539DA00165CC6 /* UIView+Extension.swift in Sources */,
-				BA38C227224539DA00165CC6 /* UICounterControl.swift in Sources */,
+				BAFA828B2247EB3000C59289 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,8 @@
 		BAFA828B2247EB3000C59289 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82852247EB3000C59289 /* APIClient.swift */; };
 		BAFA828C2247EB3000C59289 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82862247EB3000C59289 /* SQLiteManager.swift */; };
 		BAFA828D2247EB3000C59289 /* UICounterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA828A2247EB3000C59289 /* UICounterControl.swift */; };
+		BAFA828F2247EBC100C59289 /* UICopyPasteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA828E2247EBC100C59289 /* UICopyPasteLabel.swift */; };
+		BAFA82912247ED5A00C59289 /* UIMoreTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82902247ED5A00C59289 /* UIMoreTextLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		BAFA82852247EB3000C59289 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		BAFA82862247EB3000C59289 /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
 		BAFA828A2247EB3000C59289 /* UICounterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICounterControl.swift; sourceTree = "<group>"; };
+		BAFA828E2247EBC100C59289 /* UICopyPasteLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICopyPasteLabel.swift; sourceTree = "<group>"; };
+		BAFA82902247ED5A00C59289 /* UIMoreTextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMoreTextLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 		BAFA82882247EB3000C59289 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
+				BAFA828E2247EBC100C59289 /* UICopyPasteLabel.swift */,
+				BAFA82902247ED5A00C59289 /* UIMoreTextLabel.swift */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 				BA38C22D224539DA00165CC6 /* UIControl+Block.swift in Sources */,
 				BAFA828C2247EB3000C59289 /* SQLiteManager.swift in Sources */,
 				BA38C22E224539DA00165CC6 /* UIImage+Extension.swift in Sources */,
+				BAFA828F2247EBC100C59289 /* UICopyPasteLabel.swift in Sources */,
+				BAFA82912247ED5A00C59289 /* UIMoreTextLabel.swift in Sources */,
 				BA38C22F224539DA00165CC6 /* UINavigationController+Extension.swift in Sources */,
 				BAFA828D2247EB3000C59289 /* UICounterControl.swift in Sources */,
 				BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */,

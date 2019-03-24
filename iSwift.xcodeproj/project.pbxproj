@@ -25,6 +25,10 @@
 		BAFA828D2247EB3000C59289 /* UICounterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA828A2247EB3000C59289 /* UICounterControl.swift */; };
 		BAFA828F2247EBC100C59289 /* UICopyPasteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA828E2247EBC100C59289 /* UICopyPasteLabel.swift */; };
 		BAFA82912247ED5A00C59289 /* UIMoreTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82902247ED5A00C59289 /* UIMoreTextLabel.swift */; };
+		BAFA82932247F85D00C59289 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82922247F85D00C59289 /* CALayer+Extension.swift */; };
+		BAFA82952247F93300C59289 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82942247F93300C59289 /* Double+Extension.swift */; };
+		BAFA82972247F9E500C59289 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82962247F9E500C59289 /* UIImageView+Extension.swift */; };
+		BAFA82992247FA3500C59289 /* UISlider+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82982247FA3500C59289 /* UISlider+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		BAFA828A2247EB3000C59289 /* UICounterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICounterControl.swift; sourceTree = "<group>"; };
 		BAFA828E2247EBC100C59289 /* UICopyPasteLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICopyPasteLabel.swift; sourceTree = "<group>"; };
 		BAFA82902247ED5A00C59289 /* UIMoreTextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMoreTextLabel.swift; sourceTree = "<group>"; };
+		BAFA82922247F85D00C59289 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		BAFA82942247F93300C59289 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		BAFA82962247F9E500C59289 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		BAFA82982247FA3500C59289 /* UISlider+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 				BA38C221224539DA00165CC6 /* UINavigationController+Extension.swift */,
 				BA38C222224539DA00165CC6 /* String+Extension.swift */,
 				BA38C223224539DA00165CC6 /* UITextField+Extension.swift */,
+				BAFA82922247F85D00C59289 /* CALayer+Extension.swift */,
+				BAFA82942247F93300C59289 /* Double+Extension.swift */,
+				BAFA82962247F9E500C59289 /* UIImageView+Extension.swift */,
+				BAFA82982247FA3500C59289 /* UISlider+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -216,6 +228,7 @@
 			files = (
 				BA38C231224539DA00165CC6 /* UITextField+Extension.swift in Sources */,
 				BA38C229224539DA00165CC6 /* UIColor+Extension.swift in Sources */,
+				BAFA82952247F93300C59289 /* Double+Extension.swift in Sources */,
 				BA38C22D224539DA00165CC6 /* UIControl+Block.swift in Sources */,
 				BAFA828C2247EB3000C59289 /* SQLiteManager.swift in Sources */,
 				BA38C22E224539DA00165CC6 /* UIImage+Extension.swift in Sources */,
@@ -224,10 +237,13 @@
 				BA38C22F224539DA00165CC6 /* UINavigationController+Extension.swift in Sources */,
 				BAFA828D2247EB3000C59289 /* UICounterControl.swift in Sources */,
 				BA85CCC81EBA4E6A0074784D /* AppDelegate.swift in Sources */,
+				BAFA82932247F85D00C59289 /* CALayer+Extension.swift in Sources */,
 				BA38C230224539DA00165CC6 /* String+Extension.swift in Sources */,
 				BA38C22B224539DA00165CC6 /* UIButton+Extension.swift in Sources */,
 				BA38C22A224539DA00165CC6 /* Date+Extension.swift in Sources */,
 				BA38C228224539DA00165CC6 /* UIApplication+Extension.swift in Sources */,
+				BAFA82992247FA3500C59289 /* UISlider+Extension.swift in Sources */,
+				BAFA82972247F9E500C59289 /* UIImageView+Extension.swift in Sources */,
 				BA38C22C224539DA00165CC6 /* UIView+Extension.swift in Sources */,
 				BAFA828B2247EB3000C59289 /* APIClient.swift in Sources */,
 			);

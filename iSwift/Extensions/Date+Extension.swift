@@ -65,16 +65,20 @@ Z       -0600	RFC 822 GMT format. Can also match a literal Z for Zulu (UTC) time
 ZZZZZ	-06:00	ISO 8601 time zone format
 */
 
-
-
 extension Date
 {
-    func string(format:String) -> String?
+    var tomorrow: Date {
+        return Calendar.current.date(byAdding: .day, value: 1, to: self) ?? self
+    }
+    
+    func toString(format : String, isLocal:Bool) -> String
     {
-        let formatter = DateFormatter()
-        formatter.dateFormat = format
-        formatter.timeZone = NSTimeZone.local
-        return formatter.string(from: self)
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        if isLocal {
+            dateFormatter.timeZone = NSTimeZone.local
+        }
+        return dateFormatter.string(from: self)
     }
     
     func weekDay() -> String?
@@ -86,67 +90,14 @@ extension Date
     }
 }
 
+extension NSDate
+{
+    @objc func string(dateFormat format: String) -> String?
+    {
+        let date = self as Date
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        return dateFormatter.string(from: date)
+    }
+}
 
-
-
-
-/*
- + (NSInteger)dayFromDate:(NSDate*)date
- {
- NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
- [dateFormatter setDateFormat:@"dd"];
- NSString *day = [dateFormatter stringFromDate:date];
- 
- return [day integerValue];
- }
- 
- + (NSInteger)weekFromDate:(NSDate*)date
- {
- NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
- [dateFormatter setDateFormat:@"c"];
- NSString *week = [dateFormatter stringFromDate:date];
- 
- return [week integerValue];
- }
- 
- + (NSInteger)monthFromDate:(NSDate*)date
- {
- NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
- [dateFormatter setDateFormat:@"MM"];
- NSString *month = [dateFormatter stringFromDate:date];
- 
- return [month integerValue];
- }
- 
- + (NSInteger)yearFromDate:(NSDate*)date
- {
- NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
- [dateFormatter setDateFormat:@"yyyy"];
- NSString *year = [dateFormatter stringFromDate:date];
- 
- return [year integerValue];
- }
- 
-
- + (NSUInteger) numberOfDaysWithDate:(NSDate *)date
- {
- NSRange days = [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitDay
- inUnit:NSCalendarUnitMonth
- forDate:date];
- return days.length;
- }
- 
- 
- +(NSUInteger)lastDayOfMonth:(NSUInteger)month inYear:(NSUInteger)year
- {
- NSString *dateStr = [NSString stringWithFormat:@"01-%lu-%lu",(unsigned long)month,(unsigned long)year];
- NSDate *date = [CommonUtility dateFromString:dateStr withFormat:@"dd-MM-yyyy"];
- NSCalendar *cal = [NSCalendar currentCalendar];
- NSRange range = [cal rangeOfUnit:NSDayCalendarUnit
- inUnit:NSMonthCalendarUnit
- forDate:date];
- NSUInteger numberOfDaysInMonth = range.length;
- 
- return numberOfDaysInMonth;
- }
- */

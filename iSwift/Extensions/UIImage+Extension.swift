@@ -30,6 +30,33 @@ public extension UIImage
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return newImage!
-        
     }
+    
+    func toBase64String(isPNG:Bool) -> String?
+    {
+        if isPNG {
+            if let pngData = UIImagePNGRepresentation(self) {
+                return pngData.base64EncodedString()
+            }
+        } else {
+            if let jpgData = UIImageJPEGRepresentation(self, 1.0) {
+                return jpgData.base64EncodedString()
+            }
+        }
+        return nil
+    }
+    
+    static func thumbnail(forVideoURL url: URL) -> UIImage? {
+        do {
+            let asset = AVURLAsset(url: url)
+            let imageGenerator = AVAssetImageGenerator(asset: asset)
+            imageGenerator.appliesPreferredTrackTransform = true
+            let cgImage = try imageGenerator.copyCGImage(at: kCMTimeZero, actualTime: nil)
+            return UIImage(cgImage: cgImage)
+        } catch {
+            print(error.localizedDescription)
+            return nil
+        }
+    }
+
 }

@@ -12,7 +12,7 @@ import UIKit
 
 extension UIColor
 {
-    class func colorFromHexString (hex:String) -> UIColor {
+    @objc class func colorFromHexString (hex:String) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
         if (cString.hasPrefix("#")) {

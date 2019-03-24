@@ -31,6 +31,7 @@
 		BAFA82992247FA3500C59289 /* UISlider+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82982247FA3500C59289 /* UISlider+Extension.swift */; };
 		BAFA829C2247FB0F00C59289 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFA829B2247FB0F00C59289 /* libsqlite3.tbd */; };
 		BAFA829E2247FB8B00C59289 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA829D2247FB8B00C59289 /* UIViewController+Extension.swift */; };
+		BAFA82A02247FE4B00C59289 /* AppComm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA829F2247FE4B00C59289 /* AppComm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		BAFA82982247FA3500C59289 /* UISlider+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+Extension.swift"; sourceTree = "<group>"; };
 		BAFA829B2247FB0F00C59289 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		BAFA829D2247FB8B00C59289 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		BAFA829F2247FE4B00C59289 /* AppComm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				BAFA82852247EB3000C59289 /* APIClient.swift */,
 				BAFA82862247EB3000C59289 /* SQLiteManager.swift */,
+				BAFA829F2247FE4B00C59289 /* AppComm.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA38C231224539DA00165CC6 /* UITextField+Extension.swift in Sources */,
+				BAFA82A02247FE4B00C59289 /* AppComm.swift in Sources */,
 				BA38C229224539DA00165CC6 /* UIColor+Extension.swift in Sources */,
 				BAFA82952247F93300C59289 /* Double+Extension.swift in Sources */,
 				BA38C22D224539DA00165CC6 /* UIControl+Block.swift in Sources */,

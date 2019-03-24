@@ -29,6 +29,8 @@
 		BAFA82952247F93300C59289 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82942247F93300C59289 /* Double+Extension.swift */; };
 		BAFA82972247F9E500C59289 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82962247F9E500C59289 /* UIImageView+Extension.swift */; };
 		BAFA82992247FA3500C59289 /* UISlider+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA82982247FA3500C59289 /* UISlider+Extension.swift */; };
+		BAFA829C2247FB0F00C59289 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFA829B2247FB0F00C59289 /* libsqlite3.tbd */; };
+		BAFA829E2247FB8B00C59289 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA829D2247FB8B00C59289 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		BAFA82942247F93300C59289 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		BAFA82962247F9E500C59289 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		BAFA82982247FA3500C59289 /* UISlider+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+Extension.swift"; sourceTree = "<group>"; };
+		BAFA829B2247FB0F00C59289 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BAFA829D2247FB8B00C59289 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFA829C2247FB0F00C59289 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,7 @@
 				BAFA82942247F93300C59289 /* Double+Extension.swift */,
 				BAFA82962247F9E500C59289 /* UIImageView+Extension.swift */,
 				BAFA82982247FA3500C59289 /* UISlider+Extension.swift */,
+				BAFA829D2247FB8B00C59289 /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 			children = (
 				BA85CCC61EBA4E6A0074784D /* iSwift */,
 				BA85CCC51EBA4E6A0074784D /* Products */,
+				BAFA829A2247FB0F00C59289 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +160,14 @@
 				BAFA828A2247EB3000C59289 /* UICounterControl.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		BAFA829A2247FB0F00C59289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAFA829B2247FB0F00C59289 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +259,7 @@
 				BA38C228224539DA00165CC6 /* UIApplication+Extension.swift in Sources */,
 				BAFA82992247FA3500C59289 /* UISlider+Extension.swift in Sources */,
 				BAFA82972247F9E500C59289 /* UIImageView+Extension.swift in Sources */,
+				BAFA829E2247FB8B00C59289 /* UIViewController+Extension.swift in Sources */,
 				BA38C22C224539DA00165CC6 /* UIView+Extension.swift in Sources */,
 				BAFA828B2247EB3000C59289 /* APIClient.swift in Sources */,
 			);

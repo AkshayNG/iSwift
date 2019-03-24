@@ -30,6 +30,13 @@ extension UIView
         }
     }
     
+    class func loadFromNib(withName nibNamed: String, bundle: Bundle?) -> UIView? {
+        return UINib(
+            nibName: nibNamed,
+            bundle: bundle
+            ).instantiate(withOwner: nil, options: nil)[0] as? UIView
+    }
+    
     @objc func gradientBackground(withColors colors:[UIColor], maskView:UIView?)
     {
         if hasGradientLayer() { return }
